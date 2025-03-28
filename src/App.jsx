@@ -6,9 +6,13 @@ import Users from "../components/Users";
 export default function App() {
   return (
     <Routes>
+      {/* Explicit root path */}
       <Route path="/" element={<Login />} />
-      <Route path="/users" element={<Users />} /> 
+      <Route path="/users" element={<Users />} />
+      
+      {/* Add catch-all route for GitHub Pages */}
+      <Route path="*" element={<Login />} />
     </Routes>
-  );
+  )
 }
 
