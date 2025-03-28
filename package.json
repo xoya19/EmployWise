@@ -5,10 +5,10 @@
   "type": "module",
   "homepage": "https://xoya19.github.io/EmployWise",
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "start": "vite",
-  "build": "vite build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "axios": "^1.8.4",
